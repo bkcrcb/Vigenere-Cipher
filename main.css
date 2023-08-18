@@ -1,0 +1,59 @@
+body{
+  background-color: rgba(16, 24, 32, 1);
+}
+button{
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  position: relative;
+  display: block;
+  background:  rgba(0, 32, 63, 1);
+  color: rgba(173, 239, 209, 1);
+  height: 45px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  border: 3px solid rgb(8, 8, 8);
+}
+.title{
+  text-align: center;
+  margin-bottom: 75px;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: 0px;
+  color: rgba(185, 229, 243, 1);
+  font-family:Helvetica;
+  }
+.marg{
+ display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+textarea{
+  color:rgba(42, 43, 45, 1);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 15px;
+  width: 45%;
+  outline: none;
+  background-color:rgba(185, 229, 243, 1);
+  display: inline-block;
+}
+textarea::placeholder {
+  color: rgba(18, 31, 64, 1)
+}
+input{
+  background-color:rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.979);
+  width: 100px;
+  padding: 5px;
+  
+}
